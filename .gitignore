@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# Large / regenerable outputs (regenerate with the commands in README)
+output/full/
+output/reproducibility_*/
+output/tiny/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

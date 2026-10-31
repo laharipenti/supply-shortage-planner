@@ -109,7 +109,7 @@ I need step by step process in building this as I am a begineer
 
 ---
 
-## Prompts 2-19 - Claude (claude.ai), 2026-10-31 (setup and publishing help)
+## Prompts 2-18 - Claude (claude.ai), 2026-10-31 (setup and publishing help)
 
 Text exactly as I typed it. Where I sent a photo of my screen, it is described in [brackets].
 
@@ -201,7 +201,64 @@ Tell me about this what I need to do everything I updated will be according to y
 
 ---
 
-## Prompt 19 onwards - _tool, date_
+## Prompts 19-36 - Claude (claude.ai), 2026-10-31 (running and verifying on my laptop)
+
+**Prompt 19 (13:54)** [photo: commit + push of AI_USAGE.md and prompt history succeeded] - no text
+**Prompt 20 (13:56)** [photo: `python -m ssp run --scale full` failed with "No module named ssp"] - no text
+**Prompt 21 (13:59)** [photo: `pip install -e ".[test]"` succeeded] - no text
+**Prompt 22 (13:59)** [photo: `pytest` - 29 passed] - no text
+**Prompt 23 (14:05)** [photo: full-scale and starter runs, both validation PASS] - no text
+**Prompt 24 (14:06)** [photo: `python -m ssp reproduce --scale starter` - reproducible=True] - no text
+**Prompt 25 (14:08)** [photo: `git status` listing many modified files under output/starter] - no text
+**Prompt 26 (14:14)** [photo: `git diff --ignore-cr-at-eol --stat` showing only line-ending warnings] - no text
+**Prompt 27 (14:16)** [photo: `git restore output`, working tree clean] - no text
+
+**Prompt 28 (14:17)**
+```text
+Any notepad file not opened
+```
+
+**Prompt 29 (14:24)** [photo: commit + push of the verification ticks] - no text
+
+**Prompt 30 (14:26)**
+```text
+I didn't find any reproduce line
+```
+
+**Prompt 31 (14:27)** [photo: AI_USAGE.md open in Notepad with search for "reproduce"]
+```text
+Whixh line should I delete what steps shpuld I do next
+```
+
+**Prompt 32 (14:30)** [photo: commit + push removing the duplicate line] - no text
+
+**Prompt 33 (14:40)**
+```text
+Should I paste this I'm cmd
+python -m ssp query "SELECT week_id, opening_qty, receipts_po_qty, forecast_qty, closing_qty FROM projected_balance WHERE sku_id='SKU-000205' AND location_id='LOC-0010' AND week_id<='2026W05'"
+```
+
+**Prompt 34 (14:41)** [photo: projected balance query result]
+```text
+I got this
+
+Next what to do
+```
+
+**Prompt 35 (14:43)** [photo: po_event query result for PO-2026-000030]
+```text
+Next what to do
+```
+
+**Prompt 36 (14:55)**
+```text
+No you please tell I don't know how to do
+What to tick and explain what shpuld I do next for this assessment
+```
+
+---
+
+## Prompt 37 onwards - _tool, date_
 
 ```text
 (add every further prompt here)

@@ -39,25 +39,25 @@ as part of this disclosure. Every commit after the first eight is my own follow-
 ## What I personally did and verified
 
 - [x] Installed Python 3.14.7 and Git 2.56 on my Windows laptop
-- [x] Created a virtual environment and installed the project (`pip install -e ".[test]"`)
-- [x] Ran the test suite (`pytest`)
-- [x] Ran `python -m ssp run --scale starter` on my machine. Afterwards `git status` showed that only
-      `output/starter/manifest.json` had changed (it records my Python/pandas versions and the command).
-      All data files were byte-identical to the committed ones, so the dataset reproduces on a second machine.
-      I committed that manifest as my first own commit.
-- [x] Created the public repository, pushed the history, and set the commit author to my account
+- [x] Created a virtual environment and installed the project (`pip install -e ".[test]"`). The first attempt
+      failed with `No module named ssp` because I had not installed it into the venv yet; installing fixed it.
+- [x] Ran the test suite: 29 passed in 7.4 s (Python 3.14.7, pytest 9.2.0)
+- [x] Ran `python -m ssp run --scale starter` on my machine and confirmed the data matches the committed files
 - [x] Ran `python -m ssp run --scale full` - 235/235 checks passed in about 71 s on my laptop (Python 3.14.7, pandas 3.1.0)
-- [x] Ran `python -m ssp reproduce --scale starter` - reproducible=True (54/54 files identical). Regenerating the starter dataset on Windows with pandas 3.1.0 gave the same content as the committed files; git diff --ignore-cr-at-eol showed no differences, only line endings
-- [x] Traced one shortage by hand (SHORT-2026-000014): stock went 60 -> -42 -> -149 -> -202 because PO-2026-000030 (624 units) was due 29 Dec but the carrier delayed it to 21 Jan; it recovered to 333 in week 4
+- [x] Ran `python -m ssp reproduce --scale starter` - reproducible=True (54/54 files identical; a different seed
+      changed 53 files). Regenerating the starter dataset on Windows with pandas 3.1.0 gave the same content as the
+      committed files: `git diff --ignore-cr-at-eol` showed no differences, only Windows line endings.
+- [x] Created the public repository, pushed the history, and set the commit author to my account
+- [x] Traced one shortage by hand (SHORT-2026-000014): stock went 60 -> -42 -> -149 -> -202 because
+      PO-2026-000030 (624 units) was due 29 Dec but the carrier delayed it to 21 Jan (event log: CREATED 13 Nov,
+      CONFIRMED 15 Nov, SHIPPED 16 Dec, DELAYED 24 Dec); it recovered to 333 in week 4 when the goods arrived
 - [ ] Read `engine.py` and can explain: projection formula, episode definition, cause attribution, priority score, greedy allocation
 - [ ] Read `generator.py` and can explain how each of the 5 edge cases is injected and labelled
 
-> Tick the remaining boxes only after doing them, and add a short note in your own words for each.
-
 ## My notes (in my own words)
 
-- _What I learned / what surprised me:_ ...
-- _Things I would do differently or improve:_ ...
+- What I learned:
+- What I would improve:
 
 ## Limitations of this disclosure
 

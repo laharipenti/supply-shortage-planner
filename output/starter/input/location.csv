@@ -1,0 +1,11 @@
+location_id,location_name,location_type,region,status,effective_from
+LOC-0001,Plant West 01,PLANT,WEST,ACTIVE,2024-01-01
+LOC-0002,Distribution Center Central 02,DC,CENTRAL,ACTIVE,2024-01-01
+LOC-0003,Distribution Center Central 03,DC,CENTRAL,ACTIVE,2024-01-01
+LOC-0004,Distribution Center West 04,DC,WEST,ACTIVE,2024-01-01
+LOC-0005,Distribution Center East 05,DC,EAST,ACTIVE,2024-01-01
+LOC-0006,Distribution Center East 06,DC,EAST,ACTIVE,2024-01-01
+LOC-0007,Distribution Center Central 07,DC,CENTRAL,ACTIVE,2024-01-01
+LOC-0008,Distribution Center West 08,DC,WEST,ACTIVE,2024-01-01
+LOC-0009,Distribution Center West 09,DC,WEST,ACTIVE,2024-01-01
+LOC-0010,Distribution Center Central 10,DC,CENTRAL,ACTIVE,2024-01-01

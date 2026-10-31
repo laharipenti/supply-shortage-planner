@@ -1,0 +1,2357 @@
+{
+  "overall": "PASS",
+  "n_checks": 235,
+  "n_failed": 0,
+  "checks": [
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "sku",
+      "description": "sku_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "sku",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "sku",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "sku",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "sku",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "sku",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "location",
+      "description": "location_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "location",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "location",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "location",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "location",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "location",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "sku_location",
+      "description": "sku_location_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "sku_location",
+      "description": "(sku_id, location_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "sku_location",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "sku_location",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "sku_location",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "sku_location",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "sku_location",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "sku_location",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "sku_location",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "sku_substitute",
+      "description": "substitute_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "sku_substitute",
+      "description": "(sku_id, substitute_sku_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "sku_substitute",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "sku_substitute",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "sku_substitute",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "sku_substitute",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "sku_substitute",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "sku_substitute",
+      "description": "substitute_sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "sku_substitute",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "supplier",
+      "description": "supplier_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "supplier",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "supplier",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "supplier",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "supplier",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "supplier",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "supplier_sku",
+      "description": "supplier_sku_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "supplier_sku",
+      "description": "(supplier_id, sku_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "supplier_sku",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "supplier_sku",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "supplier_sku",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "supplier_sku",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "supplier_sku",
+      "description": "supplier_id -> supplier.supplier_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "supplier_sku",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "supplier_sku",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "lead_time",
+      "description": "lead_time_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "lead_time",
+      "description": "(supplier_id, sku_id, version) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "lead_time",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "lead_time",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "lead_time",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "lead_time",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "lead_time",
+      "description": "supplier_id -> supplier.supplier_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "lead_time",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "lead_time",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "supplier_capacity",
+      "description": "capacity_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "supplier_capacity",
+      "description": "(supplier_id, week_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "supplier_capacity",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "supplier_capacity",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "supplier_capacity",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "supplier_capacity",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "supplier_capacity",
+      "description": "supplier_id -> supplier.supplier_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "supplier_capacity",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "forecast_demand",
+      "description": "demand_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "forecast_demand",
+      "description": "(sku_id, location_id, week_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "forecast_demand",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "forecast_demand",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "forecast_demand",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "forecast_demand",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "forecast_demand",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "forecast_demand",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "forecast_demand",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "inventory",
+      "description": "inventory_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "inventory",
+      "description": "(sku_id, location_id, snapshot_date) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "inventory",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "inventory",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "inventory",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "inventory",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "inventory",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "inventory",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "inventory",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "bom",
+      "description": "bom_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "bom",
+      "description": "(parent_sku_id, component_sku_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "bom",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "bom",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "bom",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "bom",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "bom",
+      "description": "parent_sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "bom",
+      "description": "component_sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "bom",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "production_capacity",
+      "description": "production_capacity_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "production_capacity",
+      "description": "(location_id, week_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "production_capacity",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "production_capacity",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "production_capacity",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "production_capacity",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "production_capacity",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "production_capacity",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "production_plan",
+      "description": "production_plan_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "production_plan",
+      "description": "(sku_id, location_id, week_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "production_plan",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "production_plan",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "production_plan",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "production_plan",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "production_plan",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "production_plan",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "production_plan",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "purchase_order",
+      "description": "po_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "purchase_order",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "purchase_order",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "purchase_order",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "purchase_order",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "purchase_order",
+      "description": "supplier_id -> supplier.supplier_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "purchase_order",
+      "description": "location_id -> location.location_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "purchase_order",
+      "description": "duplicate inbound orders are all labelled anomalies",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "purchase_order_line",
+      "description": "po_line_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "purchase_order_line",
+      "description": "(po_id, line_no) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "purchase_order_line",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "purchase_order_line",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "purchase_order_line",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "purchase_order_line",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "purchase_order_line",
+      "description": "po_id -> purchase_order.po_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "purchase_order_line",
+      "description": "sku_id -> sku.sku_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "purchase_order_line",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "po_event",
+      "description": "event_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "po_event",
+      "description": "(po_id, event_seq) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "po_event",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "po_event",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "po_event",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "po_event",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "po_event",
+      "description": "po_id -> purchase_order.po_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DUP",
+      "category": "duplicates",
+      "table": "po_event",
+      "description": "no duplicate business rows",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "inbound_effective",
+      "description": "po_line_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "inbound_effective",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "inbound_effective",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "inbound_effective",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "inbound_effective",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "inbound_effective",
+      "description": "po_line_id -> purchase_order_line.po_line_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "component_requirement",
+      "description": "requirement_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "component_requirement",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "component_requirement",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "component_requirement",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "component_requirement",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "component_requirement",
+      "description": "production_plan_id -> production_plan.production_plan_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "projected_balance",
+      "description": "projection_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-UNIQ",
+      "category": "uniqueness",
+      "table": "projected_balance",
+      "description": "(sku_id, location_id, week_id) unique",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "projected_balance",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "projected_balance",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "projected_balance",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "projected_balance",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "supplier_load",
+      "description": "capacity_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "supplier_load",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "supplier_load",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "supplier_load",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "supplier_load",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "supplier_load",
+      "description": "capacity_id -> supplier_capacity.capacity_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "exception_log",
+      "description": "exception_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "exception_log",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "exception_log",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "exception_log",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "exception_log",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "shortage",
+      "description": "shortage_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "shortage",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "shortage",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "shortage",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "shortage",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "shortage_event",
+      "description": "shortage_event_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "shortage_event",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "shortage_event",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "shortage_event",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "shortage_event",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "shortage_event",
+      "description": "shortage_id -> shortage.shortage_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "mitigation_option",
+      "description": "mitigation_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "mitigation_option",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "mitigation_option",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "mitigation_option",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "mitigation_option",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-FK",
+      "category": "foreign_key",
+      "table": "mitigation_option",
+      "description": "shortage_id -> shortage.shortage_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-PK",
+      "category": "primary_key",
+      "table": "ground_truth",
+      "description": "gt_id unique and non-empty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REQ",
+      "category": "required",
+      "table": "ground_truth",
+      "description": "required fields populated",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ENUM",
+      "category": "allowed_values",
+      "table": "ground_truth",
+      "description": "values within allowed enums",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ID",
+      "category": "id_format",
+      "table": "ground_truth",
+      "description": "IDs match naming convention",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-RANGE",
+      "category": "ranges",
+      "table": "ground_truth",
+      "description": "numeric values within min/max",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-01",
+      "category": "date_order",
+      "table": "purchase_order",
+      "description": "order_date < expected_receipt_date",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-02",
+      "category": "date_order",
+      "table": "lead_time",
+      "description": "effective_from <= effective_to",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-03",
+      "category": "effective_dates",
+      "table": "lead_time",
+      "description": "versions contiguous, non-overlapping, latest open",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-04",
+      "category": "date_order",
+      "table": "po_event",
+      "description": "event dates non-decreasing and <= as-of date",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-05",
+      "category": "date_order",
+      "table": "po_event",
+      "description": "DELAYED events carry revised_eta > event_date",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-06",
+      "category": "calendar",
+      "table": "*",
+      "description": "week_start_date matches ISO week_id",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-DATE-07",
+      "category": "effective_dates",
+      "table": "sku_substitute",
+      "description": "effective_to after effective_from",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-LIFE-01",
+      "category": "lifecycle",
+      "table": "po_event",
+      "description": "event_seq contiguous from 1, starts with CREATED",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-LIFE-02",
+      "category": "lifecycle",
+      "table": "po_event",
+      "description": "only allowed PO status transitions, from_status chains",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-LIFE-03",
+      "category": "lifecycle",
+      "table": "purchase_order",
+      "description": "po_status = latest event to_status (derived)",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-LIFE-04",
+      "category": "lifecycle",
+      "table": "shortage_event",
+      "description": "only allowed shortage transitions",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-LIFE-05",
+      "category": "lifecycle",
+      "table": "shortage",
+      "description": "shortage_status = latest event to_status",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-01",
+      "category": "dependency",
+      "table": "bom",
+      "description": "parent is MANUFACTURED, component is COMPONENT, no self-reference",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-02",
+      "category": "dependency",
+      "table": "production_plan",
+      "description": "only MANUFACTURED SKUs at PLANT locations, stocked there",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-03",
+      "category": "dependency",
+      "table": "forecast_demand",
+      "description": "forecast only for stocked FINISHED/MANUFACTURED, uom = base",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-04",
+      "category": "dependency",
+      "table": "inventory",
+      "description": "exactly one snapshot per stocked SKU-location, uom = base",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-05",
+      "category": "dependency",
+      "table": "supplier_sku",
+      "description": "exactly one primary supplier per purchased SKU",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-06",
+      "category": "foreign_key",
+      "table": "lead_time",
+      "description": "(supplier_id, sku_id) -> supplier_sku",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-07",
+      "category": "dependency",
+      "table": "purchase_order_line",
+      "description": "line SKU is sourced from the PO supplier; covered SKU is stocked at the PO location",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-QTY-01",
+      "category": "quantity",
+      "table": "inventory",
+      "description": "on_hold_qty <= on_hand_qty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-QTY-02",
+      "category": "quantity",
+      "table": "lead_time",
+      "description": "transit_days <= lead_time_days",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-QTY-03",
+      "category": "capacity",
+      "table": "production_plan",
+      "description": "planned production <= plant capacity each week",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-REF-08",
+      "category": "dependency",
+      "table": "sku_substitute",
+      "description": "substitute differs from original and shares base uom",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-01",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "closing = opening + PO receipts + production - forecast - dependent demand (every week)",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-02",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "opening(week n) = closing(week n-1)",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-03",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "week-1 opening = on_hand - on_hold",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-04",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "PO receipts = sum of INCLUDED inbound_effective lines",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-05",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "production receipts = production_plan",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-06",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "forecast = forecast_demand",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-07",
+      "category": "reconciliation",
+      "table": "projected_balance",
+      "description": "dependent demand = component_requirement",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-08",
+      "category": "reconciliation",
+      "table": "component_requirement",
+      "description": "required_qty = planned_qty x qty_per x (1+scrap)",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-09",
+      "category": "reconciliation",
+      "table": "inbound_effective",
+      "description": "base_qty = order_qty x units_per_case for CS lines",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-10",
+      "category": "reconciliation",
+      "table": "inbound_effective",
+      "description": "effective_qty <= base_qty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-11",
+      "category": "reconciliation",
+      "table": "supplier_load",
+      "description": "utilisation = load / capacity; is_exceeded = load > capacity",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-12",
+      "category": "reconciliation",
+      "table": "shortage",
+      "description": "shortage = maximal run of negative balance; qty = peak deficit; value and residual consistent",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-13",
+      "category": "reconciliation",
+      "table": "shortage",
+      "description": "every stockout week belongs to a shortage episode",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-ARITH-14",
+      "category": "derived_value",
+      "table": "sku",
+      "description": "abc_class recomputed from demand value matches",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-SHORT-01",
+      "category": "explainability",
+      "table": "shortage",
+      "description": "every shortage has a primary cause and evidence",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-01",
+      "category": "policy",
+      "table": "mitigation_option",
+      "description": "recommended options are policy-compliant and feasible",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-02",
+      "category": "lead_time",
+      "table": "mitigation_option",
+      "description": "NEW_PO arrival = as-of + current supplier lead time",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-03",
+      "category": "policy",
+      "table": "mitigation_option",
+      "description": "substitute options marked OK use APPROVED pairs only",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-04",
+      "category": "policy",
+      "table": "mitigation_option",
+      "description": "no OK new PO to an ON_HOLD supplier",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-05",
+      "category": "capacity",
+      "table": "mitigation_option",
+      "description": "allocations <= coverable and total <= shortage qty",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-06",
+      "category": "capacity",
+      "table": "mitigation_option",
+      "description": "recommended new POs fit remaining supplier capacity",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-07",
+      "category": "capacity",
+      "table": "mitigation_option",
+      "description": "transfers/substitutions never exceed donor surplus above safety stock",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-MIT-08",
+      "category": "tradeoff",
+      "table": "mitigation_option",
+      "description": "every option shows cost and service figures",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-GT-01",
+      "category": "ground_truth",
+      "table": "ground_truth",
+      "description": "labels stored separately; no label columns in input/derived",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-GT-02",
+      "category": "ground_truth",
+      "table": "ground_truth",
+      "description": "every label points to an existing record",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": false
+    },
+    {
+      "check_id": "V-GT-03",
+      "category": "anomaly_reconciliation",
+      "table": "INBOUND_COUNTED_TWICE",
+      "description": "INBOUND_COUNTED_TWICE: 8 labelled, 8 found by independent rule; sets must match",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    },
+    {
+      "check_id": "V-GT-03",
+      "category": "anomaly_reconciliation",
+      "table": "SUBSTITUTE_NOT_APPROVED",
+      "description": "SUBSTITUTE_NOT_APPROVED: 8 labelled, 8 found by independent rule; sets must match",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    },
+    {
+      "check_id": "V-GT-03",
+      "category": "anomaly_reconciliation",
+      "table": "SUPPLIER_CAPACITY_EXCEEDED",
+      "description": "SUPPLIER_CAPACITY_EXCEEDED: 8 labelled, 8 found by independent rule; sets must match",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    },
+    {
+      "check_id": "V-GT-03",
+      "category": "anomaly_reconciliation",
+      "table": "SHORTAGE_WITHOUT_LEAD_TIME",
+      "description": "SHORTAGE_WITHOUT_LEAD_TIME: 8 labelled, 8 found by independent rule; sets must match",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    },
+    {
+      "check_id": "V-GT-03",
+      "category": "anomaly_reconciliation",
+      "table": "UOM_MISMATCH",
+      "description": "UOM_MISMATCH: 8 labelled, 8 found by independent rule; sets must match",
+      "status": "PASS",
+      "violations": 0,
+      "sample": [],
+      "labelled_ok": true
+    }
+  ]
+}

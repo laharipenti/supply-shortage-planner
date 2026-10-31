@@ -109,8 +109,100 @@ I need step by step process in building this as I am a begineer
 
 ---
 
-## Prompt 2 - _tool, date_
+## Prompts 2-19 - Claude (claude.ai), 2026-10-31 (setup and publishing help)
+
+Text exactly as I typed it. Where I sent a photo of my screen, it is described in [brackets].
+
+**Prompt 2 (12:15)**
+```text
+Can I install the latest version of python ?
+```
+
+**Prompt 3 (12:17)**
+```text
+Can you give me the link to install python 3.13 version or 3.14
+```
+
+**Prompt 4 (12:44)** [photo: MSYS2 UCRT64 terminal open in my home folder]
+```text
+Create an empty public GitHub repo, then run git remote add origin <url> and git push -u origin main.
+```
+
+**Prompt 5 (12:45)** [photo: File Explorer showing the unzipped supply-shortage-planner folder]
+```text
+I unzipped the folder
+```
+
+**Prompt 6 (12:48)** [photo: terminal open inside the project folder, no command typed yet]
+```text
+(no text)
+```
+
+**Prompt 7 (12:49)**
+```text
+It's empty i don't see any thing whixh represents anything
+```
+
+**Prompt 8 (12:50)** [photo: output of `git log --oneline` (8 commits) and `git status` (manifest.json modified)]
+```text
+(no text)
+```
+
+**Prompt 9 (12:52)** [photo: `git add -A` and `git commit` succeeded]
+```text
+(no text)
+```
+
+**Prompt 10 (13:08)** [photo: "Authorize Git Credential Manager" page for my GitHub account]
+```text
+(no text)
+```
+
+**Prompt 11 (13:09)**
+```text
+Laharipenti is my account
+```
+
+**Prompt 12 (13:10)** [photo: `git push -u origin main` succeeded]
+```text
+(no text)
+```
+
+**Prompt 13 (13:20)** [photo: GitHub repo page showing commits authored by "madhukarmamidala"]
+```text
+Why is madhurmamidala here  it's laharipenti account right
+```
+
+**Prompt 14 (13:20)**
+```text
+No
+It needs to have laharipenti there it should not be madhukarmamidala
+```
+
+**Prompt 15 (13:26)** [photo: GitHub Settings -> Emails page]
+```text
+(no text)
+```
+
+**Prompt 16 (13:28)** [photo: `git config user.name "Lahari Penti"` in Command Prompt]
+```text
+(no text)
+```
+
+**Prompt 17 (13:31)** [photo: `git log` showing all commits now authored by Lahari Penti]
+```text
+(no text)
+```
+
+**Prompt 18 (13:35)** (I pasted Claude's checklist of remaining steps and asked)
+```text
+Tell me about this what I need to do everything I updated will be according to you
+```
+
+---
+
+## Prompt 19 onwards - _tool, date_
 
 ```text
-(paste your next prompt here)
+(add every further prompt here)
 ```

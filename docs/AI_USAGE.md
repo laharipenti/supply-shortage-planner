@@ -48,7 +48,7 @@ as part of this disclosure. Every commit after the first eight is my own follow-
 - [x] Created the public repository, pushed the history, and set the commit author to my account
 - [x] Ran `python -m ssp run --scale full` - 235/235 checks passed in about 71 s on my laptop (Python 3.14.7, pandas 3.1.0)
 - [x] Ran `python -m ssp reproduce --scale starter` - reproducible=True (54/54 files identical). Regenerating the starter dataset on Windows with pandas 3.1.0 gave the same content as the committed files; git diff --ignore-cr-at-eol showed no differences, only line endings
-- [ ] Traced one shortage by hand (exercise in `docs/BEGINNER_GUIDE.md`, Part D)
+- [x] Traced one shortage by hand (SHORT-2026-000014): stock went 60 -> -42 -> -149 -> -202 because PO-2026-000030 (624 units) was due 29 Dec but the carrier delayed it to 21 Jan; it recovered to 333 in week 4
 - [ ] Read `engine.py` and can explain: projection formula, episode definition, cause attribution, priority score, greedy allocation
 - [ ] Read `generator.py` and can explain how each of the 5 edge cases is injected and labelled
 

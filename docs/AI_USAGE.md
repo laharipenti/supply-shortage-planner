@@ -51,13 +51,13 @@ as part of this disclosure. Every commit after the first eight is my own follow-
 - [x] Traced one shortage by hand (SHORT-2026-000014): stock went 60 -> -42 -> -149 -> -202 because
       PO-2026-000030 (624 units) was due 29 Dec but the carrier delayed it to 21 Jan (event log: CREATED 13 Nov,
       CONFIRMED 15 Nov, SHIPPED 16 Dec, DELAYED 24 Dec); it recovered to 333 in week 4 when the goods arrived
-- [ ] Read `engine.py` and can explain: projection formula, episode definition, cause attribution, priority score, greedy allocation
-- [ ] Read `generator.py` and can explain how each of the 5 edge cases is injected and labelled
+- [x] Read `engine.py` and can explain: projection formula, episode definition, cause attribution, priority score, greedy allocation
+- [x] Read `generator.py` and can explain how each of the 5 edge cases is injected and labelled
 
 ## My notes (in my own words)
 
-- What I learned:
-- What I would improve:
+- What I learned:  How one delayed delivery turns into a multi-week shortage. When I traced SHORT-2026-000014, a carrier delay moved 624 units from 29 Dec to 21 Jan, so stock went from 60 to -202 before it recovered. I also learned that a fixed seed makes synthetic data fully reproducible: my laptop produced exactly the same files as the original run, and the only differences git showed were Windows line endings
+- What I would improve: Choose fixes with an optimisation model instead of picking the best option one shortage at a time, so scarce supplier capacity is shared better. I would also add forecast error to the data and a simple dashboard so a planner can see the top shortages and the recommended actions.
 
 ## Limitations of this disclosure
 
